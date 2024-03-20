@@ -13,7 +13,6 @@ Afin de pouvoir lancer le projet en local, vous devez avoir ces outils sur votre
 
 Je vous conseil les IDEs suivants
 - [IntelliJ](https://www.jetbrains.com/fr-fr/idea/download/) (pour le back)
-- [WebStorm](https://www.jetbrains.com/fr-fr/webstorm/download/) (pour le front)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 
