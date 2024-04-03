@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -16,8 +17,7 @@ public class TableRestaurant {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long tableId;
 
-    //une table dispose d'une liste de client
     @OneToMany(mappedBy = "tableRestaurant")
-    private Set<Client> clientSet = new HashSet<>();
+    private List<Client> clients;
 
 }

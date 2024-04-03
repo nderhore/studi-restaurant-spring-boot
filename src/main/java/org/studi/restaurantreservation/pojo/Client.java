@@ -16,8 +16,7 @@ public class Client {
     private String nom;
     private String prenom;
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "table_id")
+    @ManyToOne
     private TableRestaurant tableRestaurant;
 
 }
